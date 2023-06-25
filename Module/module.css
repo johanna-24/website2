@@ -1,0 +1,839 @@
+/*navbar*/
+
+.navbar {
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-navv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+  
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.nav-item {
+    text-decoration: black;
+    overflow: visible;
+    z-index: 3;
+    margin-right: 10px;
+    text-align: right;
+}
+
+
+/*box*/
+
+.shadow-box { 
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 237, 237, 0.8);
+    padding: 25px; /* Set padding */
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Add box shadow */
+    margin-bottom: 20px;
+}
+
+
+/*image*/
+
+#logo_img{
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 20px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-25px); }
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #ffc17ae0;
+    font-size: 14px;
+    padding: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+  hr {
+    height: 2px;
+    background-color: #000000;
+    border: none;
+    margin: 20px 0;
+ }
+ .uppertext {
+    color:rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif; 
+ }
+
+ .upperr p h3 {
+    font-family: 'Poppins', sans-serif;
+ }
+
+
+.tag {
+    padding-top: 15px;
+}
+
+
+
+.click {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.clicks {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.pagebody {
+    margin-top: 40px;
+}
+
+
+/* hover box */
+
+.box1:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box1:hover .BPOS1 {
+  content:url(../image/POS/outdated_white.png);
+}
+
+.box1:hover .BFIN1 {
+  content:url(../image/FINANCIAL/accurate\ white.png);
+}
+
+.box1:hover .BAST1 {
+  content:url(../image/ASSET/asset\ management\ white.png);
+}
+
+.box1:hover .BAST6 {
+  content:url(../image/ASSET/analysis\ white.png);
+}
+
+.box1:hover .BPROD1 {
+  content:url(../image/PRODUCTION/meeting\ production\ white.png);
+}
+
+.box1:hover .HR1 {
+  content:url(../image/HR/Personal\ white.png);
+}
+
+.box1:hover .HR5 {
+  content:url(../image/HR/Time\ Tracking\ white.png);
+}
+
+.box1:hover .HR9 {
+  content:url(../image/HR/Accurate\ Payroll\ white.png);
+}
+
+.box1:hover h5{
+  color: white;
+}
+
+.box1:hover p{
+  color: white;
+}
+
+.box2:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box2:hover .BPOS2 {
+  content:url(../image/POS/integration_white.png);
+}
+
+.box2:hover .BFIN2 {
+  content:url(../image/FINANCIAL/advance\ white.png);
+}
+
+.box2:hover .BAST2 {
+  content:url(../image/ASSET/maintenance\ management\ white.png);
+}
+
+.box2:hover .BAST7 {
+  content:url(../image/ASSET/barcode\ white.png);
+}
+
+.box2:hover .BPROD2 {
+  content:url(../image/PRODUCTION/quality\ white.png);
+}
+
+.box2:hover .HR2 {
+  content:url(../image/HR/Payroll\ white.png);
+}
+.box2:hover .HR6 {
+  content:url(../image/HR/Location\ white.png);
+}
+.box2:hover .HR10 {
+  content:url(../image/HR/Time-Saving\ white.png);
+}
+
+.box2:hover h5{
+  color: white;
+}
+
+.box2:hover p{
+  color: white;
+}
+
+.box3:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box3:hover .BPOS3 {
+  content:url(../image/POS/security\ white.png);
+}
+
+.box3:hover .BFIN3 {
+  content:url(../image/FINANCIAL/automation\ white.png);
+}
+
+.box3:hover .BAST3 {
+  content:url(../image/ASSET/depreciation\ white.png);
+}
+
+.box3:hover .BAST8 {
+  content:url(../image/ASSET/real-time\ white.png);
+}
+
+.box3:hover .BPROD3 {
+  content:url(../image/PRODUCTION/satisfying\ white.png);
+}
+
+.box3:hover .HR3 {
+  content:url(../image/HR/Benefits\ white.png);
+}
+
+.box3:hover .HR7 {
+  content:url(../image/HR/Time\ Off\ white.png);
+}
+
+.box3:hover .HR11 {
+  content:url(../image/HR/Cost\ Saving\ white.png);
+}
+
+.box3:hover h5{
+  color: white;
+}
+
+.box3:hover p{
+  color: white;
+}
+
+.box4:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box4:hover .BPOS4 {
+  content:url(../image/POS/limited\ featrures\ white.png);
+}
+
+.box4:hover .BFIN4 {
+  content:url(../image/FINANCIAL/accountability\ white.png);
+}
+
+.box4:hover .BAST4 {
+  content:url(../image/ASSET/risk\ white.png);
+}
+
+.box4:hover .BAST9 {
+  content:url(../image/ASSET/mobile\ access\ white.png);
+}
+
+.box4:hover .BPROD4 {
+  content:url(../image/PRODUCTION/minimizing\ cost\ white.png);
+}
+
+.box4:hover .HR4 {
+  content:url(../image/HR/Work\ Schedule\ white.png);
+}
+.box4:hover .HR8 {
+  content:url(../image/HR/Schedule\ white.png);
+}
+.box4:hover .HR12 {
+  content:url(../image/HR/Data\ Securiing\ \ white.png);
+}
+
+.box4:hover h5{
+  color: white;
+}
+
+.box4:hover p{
+  color: white;
+}
+
+.box5:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+}
+
+.box5:hover .BPOS5 {
+  content:url(../image/POS/difficult\ maintenance\ white.png);
+}
+
+.box5:hover .BFIN5 {
+  content:url(../image/FINANCIAL/audit\ white.png);
+}
+
+.box5:hover .BAST5 {
+  content:url(../image/ASSET/disposal\ white.png);
+}
+
+.box5:hover .BAST10 {
+  content:url(../image/ASSET/custom\ reporting\ white.png);
+}
+
+.box5:hover .HR13 {
+  content:url(../image/HR/Law\ Adhering\ white.png);
+}
+
+
+.box5:hover h5{
+  color: white;
+}
+
+.box5:hover p{
+  color: white;
+}
+
+
+
+.boxs {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.box {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.box:hover .collapse {
+  max-height: 650px;
+}
+
+.box .collapse {
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#benefits {
+  margin: 0 40px;
+}
+
+#PUR_benefits {
+  padding: 0 160px;
+}
+
+#benefits img {
+  padding-top: 20px;
+  max-width: 60%;
+  height: auto;
+}
+
+#fin_benefits img {
+  padding-top: 20px;
+  max-width: 60%;
+  height: auto;
+}
+
+
+#ast_benefits img {
+  padding-top: 20px;
+  max-width: 55%;
+  height: auto;
+}
+
+#fin_benefits {
+  margin: 0 30px;
+}
+
+#ast_benefits {
+  margin: 0 30px;
+}
+
+#HR_benefits {
+  margin: 0 140px;
+}
+
+#HR_benefits img {
+  padding-top: 20px;
+  max-width: 55%;
+  height: auto;
+}
+
+/*#benefits {
+  margin-left: 80px;
+  margin-right: 80px;
+}*/
+
+
+
+/*rotate bg img*/
+
+.bg3-img {
+  position: absolute;
+  overflow: hidden;
+  top: -30%;
+  left: 40%;
+  z-index: -1;
+  padding:80px;
+}
+
+.bg3-img img {
+  width: 100%;
+  height: auto;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* animate float */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-25px); }
+}
+
+#updown_bg {
+  animation: float 4s ease-in-out infinite;
+  position: relative;
+  z-index: -2;
+  position: absolute;
+  top: 185%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height:auto;
+}
+
+/*.card-img-top {
+  width: 5%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 15px;
+} */
+
+#audit_benefitss img {
+  width: 5%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+#POS_benefits img {
+  width: 5%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.CRM_benefits img {
+  width: 5%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.boxcard {
+  margin: 0 200px;;
+} 
+
+
+.card:hover {
+  background-color:#5a5a5a;
+  color: white;
+  transform: scale(1.05);
+}
+
+.card:hover .AC1{
+  content:url(../image/AUDIT/Conformity\ white.png);
+}
+.card:hover .AC2{
+  content:url(../image/AUDIT/time-management\ white.png);
+}
+.card:hover .AC3{
+  content:url(../image/AUDIT/Accuracy\ white.png);
+}
+.card:hover .AC4{
+  content:url(../image/AUDIT/Vulnerability\ white.png);
+}
+.card:hover .AC5{
+  content:url(../image/AUDIT/report\ white.png);
+}
+.card:hover .AC6{
+  content:url(../image/AUDIT/Synergy\ white.png);
+}
+
+.card:hover .CRM1{
+  content:url(../image/CRM/optimization\ white.png);
+}
+.card:hover .CRM2{
+  content:url(../image/CRM/maximize\ white.png);
+}
+.card:hover .CRM3{
+  content:url(../image/CRM/specialized\ white.png);
+}
+.card:hover .CRM4{
+  content:url(../image/CRM/publicized\ white.png);
+}
+.card:hover .CRM5{
+  content:url(../image/CRM/centralized\ white.png);
+}
+
+.card:hover .POS1{
+  content:url(../image/POS/streamlined\ transactions\ white.png);
+}
+.card:hover .POS2{
+  content:url(../image/POS/inventory\ white.png);
+}
+.card:hover .POS3{
+  content:url(../image/POS/insight\ white.png);
+}
+.card:hover .POS4{
+  content:url(../image/POS/reporting\ white.png);
+}
+.card:hover .POS5{
+  content:url(../image/POS/mobility\ white.png);
+}
+
+.card:hover .BPURCH1{
+  content:url(../image/PURCHASING/boost\ white.png);
+}
+.card:hover .BPURCH2{
+  content:url(../image/PURCHASING/Enhancing\ white.png);
+}
+.card:hover .BPURCH3{
+  content:url(../image/PURCHASING/Relationship\ white.png);
+}
+.card:hover .BPURCH4{
+  content:url(../image/PURCHASING/Savings\ white.png);
+}
+.card:hover .BPURCH5{
+  content:url(../image/PURCHASING/data\ white.png)
+}
+
+
+.card:hover .WARH1{
+  content:url(../image/WAREHOUSING/efficiency\ white.png)
+}
+.card:hover .WARH2{
+  content:url(../image/WAREHOUSING/target\ white.png)
+}
+.card:hover .WARH3{
+  content:url(../image/WAREHOUSING/visibility\ white.png)
+}
+.card:hover .WARH4{
+  content:url(../image/WAREHOUSING/customer\ service\ white.png)
+}
+.card:hover .WARH5{
+  content:url(../image/WAREHOUSING/Cost\ savings\ white.png)
+}
+.card:hover .WARH6{
+  content:url(../image/WAREHOUSING/Inventory\ white.png)
+}
+.card:hover .WARH7{
+  content:url(../image/WAREHOUSING/Order\ management\ white.png)
+}
+.card:hover .WARH8{
+  content:url(../image/WAREHOUSING/Barcode\ white.png)
+}
+.card:hover .WARH9{
+  content:url(../image/WAREHOUSING/Reporting\ white.png)
+}
+
+.card:hover .HR01{
+  content:url(../image/HR/Personal\ Data\ white.png)
+}
+.card:hover .HR02{
+  content:url(../image/HR/Documents\ \ white.png)
+}
+.card:hover .HR03{
+  content:url(../image/HR/Disciplinary\ white.png)
+}
+.card:hover .HR04{
+  content:url(../image/HR/Statutory\ white.png)
+}
+.card:hover .HR05{
+  content:url(../image/HR/Device\ white.png)
+}
+.card:hover .HR06{
+  content:url(../image/HR/Branch\ white.png)
+}
+
+
+.card {
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #ccc; /* set the border style */
+  border-radius: 10px; /* set the border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a shadow effect */
+}
+
+.texts {
+  margin-top:20px;
+}
+
+.lower {
+  margin-top: 25px;
+}
+
+.boxes {
+  margin: 10px;
+  padding: 2px;
+}
+
+.carousel_img {
+  padding-top: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: gray;
+}
+
+.center-list {
+  text-align: center;
+}
+
+.center-list li {
+  text-align: left;
+  display: inline-block;
+  list-style-position: inside;
+  margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+  .boxcard {
+    margin: 0 30px;
+  }
+
+  .mobile-size {
+    width: 50%;
+    height: auto;
+  }
+
+  .HR_title {
+    font-size: 40px;
+  }
+
+  #HR_benefits {
+    margin: 0 20px;
+  }
+  .FIN_title {
+    font-size: 40px;
+  }
+
+  .CRM_title {
+    font-size: 40px;
+  }
+
+  .AST_title {
+    font-size: 40px;
+  }
+
+  .PROD_title {
+    font-size: 40px;
+  }
+
+  .PUR_title{
+    font-size: 40px;
+  }
+
+  #PUR_benefits {
+    padding: 0 20px;
+  }
+
+  .AUD_title {
+    font-size: 40px;
+  }
+
+  .WAR_title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HR_title {
+    font-size: 35px;
+  }
+
+  .FIN_title {
+    font-size: 35px;
+  }
+
+  .CRM_title {
+    font-size: 35px;
+  }
+
+  .AST_title {
+    font-size: 35px;
+  }
+
+  .PROD_title {
+    font-size: 35px;
+  }
+
+  .PUR_title{
+    font-size: 35px;
+  }
+
+  .AUD_title {
+    font-size: 35px;
+  }
+
+  .WAR_title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 820px) {
+  .HR_title {
+    font-size: 37px;
+  }
+
+  .FIN_title {
+    font-size: 37px;
+  }
+
+  .CRM_title {
+    font-size: 37px;
+  }
+
+  .AST_title {
+    font-size: 37px;
+  }
+
+  .PROD_title {
+    font-size: 37px;
+  }
+
+  .PUR_title{
+    font-size: 37px;
+  }
+
+  .AUD_title {
+    font-size: 37px;
+  }
+
+  .WAR_title {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 912px) {
+  .HR_title {
+    font-size: 37px;
+  }
+
+  .FIN_title {
+    font-size: 37px;
+  }
+
+  .CRM_title {
+    font-size: 37px;
+  }
+
+  .AST_title {
+    font-size: 37px;
+  }
+
+  .PROD_title {
+    font-size: 37px;
+  }
+
+  .PUR_title{
+    font-size: 37px;
+  }
+
+  .AUD_title {
+    font-size: 37px;
+  }
+
+  .WAR_title {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 280px) {
+  .HR_title {
+    font-size: 30px;
+  }
+
+  .FIN_title {
+    font-size: 30px;
+  }
+
+  .CRM_title {
+    font-size: 30px;
+  }
+
+  .AST_title {
+    font-size: 30px;
+  }
+
+  .PROD_title {
+    font-size: 30px;
+  }
+
+  .PUR_title{
+    font-size: 30px;
+  }
+
+  #PUR_benefits {
+    padding: 0 2px;
+  }
+
+  .AUD_title {
+    font-size: 30px;
+  }
+
+  .WAR_title {
+    font-size: 30px;
+  }
+}
